@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnBlogExpreso</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--esto es para poner una imagen de fondo y texto en cima o tambien conocido como cabeza de la pagina web-->
+    <header class="header">
+        <!--esto es para poner el logo de la pagina web y tambien opciones de menu-->
+        <div class="contenedor">
+            <!--esto es para hacer una barra arriba de todo que diga el logo y opciones de la pagina web--> 
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1> 
+                </a>
+                <!--esto es para poner opciones en la barra y poder navegar en diferentes paginas-->
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion_enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion_enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion_enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <!--esto es un texto que va en la cabeza de la pagina web-->
+        <div class="header_texto">
+            <!--esto es el texto xd-->
+            <h2 class="no-margin">Blog de cafe y cursos para hacer un buen café</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+    <!--aqui se pone el contenedor para que el texto y las imagenes no toque las orillas de la pagina y tengan margen 
+    y tambien aqui estara el contenido principal de la pagina-->
+
+    <div class="contenedor">
+        <main class="entrada">
+            <h3 class="centrar-texto">Contacto</h3>
+
+            <div class="contacto-bg"></div>
+            
+            <form class="formulario">
+                <div class="campo">
+                    <label class="campo__label" for="nombre">Nombre</label>
+                    <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre">
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="Email">Email</label>
+                    <input class="campo__field" type="email" placeholder="Tu Email" id="Email">
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="Mensaje">Mensaje</label>
+                    <textarea class="campo__field campo__field--textarea" id="Mensaje"></textarea>
+                </div>
+
+                <div class="campo">
+                    <input type="submit" value="Enviar" class="boton boton--primario">
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <!--esto es para hacer una barra arriba de todo que diga el logo y opciones de la pagina web--> 
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1> 
+                </a>
+                <!--esto es para poner opciones en la barra y poder navegar en diferentes paginas-->
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion_enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion_enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion_enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
